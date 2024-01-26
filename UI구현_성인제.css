@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #main3 > div{
+    width:  50%
+    
+
+  }
+
+  #main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    
+  }
+
+  #main {
+    
+     width: 700px;
+     height: 400px;
+     display:  flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     align-content: start;
+
+  }
+
+  #numberBoard{
+    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 15%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .numbers{
+    
+    width: 90px;
+    height: 90px;
+    
+
+    
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    user-select : none
+
+}
+
+#main2{
+    margin: 10px;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 440px;
+    
+}
+
+#callNumber{
+    margin: 20px 40px;
+    
+    width: 200px;
+    
+    
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+#callNumber2{
+    margin: 0 20px;
+    height: 400px;
+    list-style: none;
+    user-select : none
+}
+
+#add{
+    border-radius: 5px ;
+    width: 200px;
+    background-color: white;
+    border-color: green;
+    color: green;
+    
+}
+#reset{
+    border-radius: 5px ;
+    width: 200px;
+    background-color: white;
+    border-color: gray;
+    color : gray;
+}
+
+.numbers:hover{
+    background-color: gray;
+    border-radius: 100%;
+}
+
+#add:hover{
+    background-color: green;
+    color:white
+}
+#reset:hover{
+    background-color: gray;
+    color : white;
+}
+   
+.selected{
+    color:red;
+}
