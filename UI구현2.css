@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+#name{
+    
+    width: 200px;
+    height: 40px;
+    font-size: 10px;
+}
+
+#nameTag{
+    
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+}
+
+
+#mainBox{
+ border-bottom: 2px solid black;
+ display: flex;
+ width: 900px;
+}
+
+.menu{
+    width: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 2px;
+    
+}
+
+.menuBox{
+    border: 2px solid black;
+    width:900px;
+    height: 200px;
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#correction{
+    border-radius: 10%;
+}
